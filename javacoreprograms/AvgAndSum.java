@@ -2,21 +2,18 @@ package javacoreprograms;
 
 import java.util.Scanner;
 
-public class Avgandsum {
+public class AvgAndSum {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-int a, b,sum;
-float avg;
+public static void main(String[] args) {
 
 Scanner sc = new Scanner(System.in);
 System.out.println("Enter first number");
-a= sc.nextInt();
+int a= sc.nextInt();
 System.out.println("Enter second number");
-b= sc.nextInt();
+int b= sc.nextInt();
 
-sum=a+b;
-avg = (float)((a+b/2));
+int sum=a+b;
+float avg = (float)((a+b/2));
 System.out.println("sum is "+sum);
 System.out.println("avg is "+avg);
 
