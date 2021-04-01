@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class VowelAndConsonant {
 
 	public static void main(String[] args) {
-//a , e, i, o, u
+		//a , e, i, o, u
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the character");
 
