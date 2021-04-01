@@ -2,7 +2,7 @@ package javacoreprograms;
 
 import java.util.Scanner;
 
-public class Swaptwonumbers {
+public class SwapTwoNumbers {
 
 	public static void main(String[] args) {
 		
