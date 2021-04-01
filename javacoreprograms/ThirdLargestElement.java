@@ -6,17 +6,17 @@ public class ThirdLargestElement {
 	public static void main(String[] args) {
 		
 		int temp;
-		   int arr [] = {10, 20, 25, 63, 96, 57}; 
-		   for(int i = 0; i<arr.length; i++ ){
-		      for(int j = i+1; j<arr.length; j++){
-		         if(arr[i]>arr[j]){
-		            temp = arr[i];
-		            arr[i] = arr[j];
-		            arr[j] = temp;
+		   int a [] = {10, 20, 25, 63, 96, 57}; 
+		   for(int i = 0; i<a.length; i++ ){
+		      for(int j = i+1; j<a.length; j++){
+		         if(a[i]>a[j]){
+		            temp = a[i];
+		            a[i] = a[j];
+		            a[j] = temp;
 		         }
 		      }
 		   }
-		   System.out.println("Third largest number is: "+arr[arr.length-3]);
+		   System.out.println("Third largest number is: "+a[a.length-3]);
 		
 		
 	}
