@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Amazonquestion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int a[] = {4,5,5,5,4,6,6,9,4};
 		//print unique number from the list
 		//5-3,6-2,4-2,9-1
