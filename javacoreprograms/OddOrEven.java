@@ -2,7 +2,7 @@ package javacoreprograms;
 
 import java.util.Scanner;
 
-public class Oddoreven {
+public class OddOrEven {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
