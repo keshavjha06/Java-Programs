@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class DuplicateElementsArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 //		String a [] = {"java" , "python" , "C" , "Ruby" , "Java"};
 //		boolean flag= false;
