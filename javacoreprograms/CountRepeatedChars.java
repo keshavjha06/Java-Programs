@@ -7,9 +7,30 @@ public class CountRepeatedChars {
 	//count each character/ find duplicate/repeated characters in String
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the string");
-		String str = sc.nextLine();
+		printDuplicateChars("Javata");
+		
+		
+	}
+		public static void printDuplicateChars(String str) {
+			if(str==null)
+			{
+				System.out.println("Null String");
+				return;
+
+			}
+			if(str.isEmpty()) 
+			{
+				System.out.println("Empty String");
+				return;
+
+
+			}
+		
+		if(str.length()==1) {
+			System.out.println("single character string");
+			return;
+
+		}
 		 //Create HashMap containing char as a key and occurrences as value  
 		HashMap<Character, Integer> charCountMap = new HashMap<Character,  Integer>(); 
 		 //Converting given string to char array 
@@ -25,12 +46,14 @@ public class CountRepeatedChars {
 		 else 
 		 { 
 		  
-		 //If char is not present in charCountMap,  //putting this char to charCountMap with 1 as it's value  
+		 //If char is not present in charCountMap,  
+		//putting this char to charCountMap with 1 as it's value  
 			 charCountMap.put(ch, 1); 
 		 } 
 		 } 
-		 System.out.println(charCountMap); 
+		 System.out.println(charCountMap);
 
 	}
 
 }
+
