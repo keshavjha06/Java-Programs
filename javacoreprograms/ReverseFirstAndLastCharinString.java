@@ -1,6 +1,6 @@
 package javacoreprograms;
 
-public class FirstAndLastCharinString {
+public class ReverseFirstAndLastCharinString {
 
 	public static void main(String[] args) {
 		
