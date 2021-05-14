@@ -22,6 +22,19 @@ public class PalindromeNumber {
 		} else {
 			System.out.println(org_num + " is not palindrome number");
 		}
+		
+		//using stringbuffer class
+		
+		//StringBuffer sb = new StringBuffer(String.valueOf(num));
+		//StringBuffer rev=sb.reverse();
+		//System.out.println("reverse number is :"+ rev);
+
+		// using string builder
+
+		//StringBuilder sb1 = new StringBuilder();
+		//sb1.append(num);
+		//StringBuilder rev1=sb1.reverse();
+		//System.out.println("reverse number is :"+ rev1);
 
 	}
 }
