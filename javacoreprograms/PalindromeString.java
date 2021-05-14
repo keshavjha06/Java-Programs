@@ -31,5 +31,11 @@ else
 
 }
 
+		//StringBuffer is mutable class and String is immutable so we cannot use reverse function
+		StringBuffer sb = new StringBuffer(str);
+		System.out.println(sb.reverse());
+		
+		 StringBuilder str1 = new StringBuilder(str);  
+		 System.out.println(str1.reverse());
 }
 }
