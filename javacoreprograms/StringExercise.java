@@ -4,7 +4,7 @@ public class StringExercise {
 
 	public static void main(String[] args) {
 
-				String str = "apple";
+					String str = "apple";
 			    	String npt = "banana";
 			    	String str1 = "apple";
 			    	String str2 = new String("apple");

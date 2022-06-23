@@ -8,37 +8,35 @@ import java.util.Scanner;
 
 public class ReadDataFromFile {
 
-	public static void main(String[] args) throws IOException {
-		// Approach 1 : Using FileReader & BufferReader
+    public static void main(String[] args) throws IOException {
+        // Approach 1 : Using FileReader & BufferReader
 
-		FileReader fr = new FileReader("C:\\Users\\Keshav\\Desktop\\API.txt");
+        FileReader fr = new FileReader("C:\\Users\\Keshav\\Desktop\\API.txt");
 
-		BufferedReader br = new BufferedReader(fr);
+        BufferedReader br = new BufferedReader(fr);
 
-		String str;
+        String str;
 
-		while ((str = br.readLine()) != null) {
-			System.out.println(str);
-		}
-		br.close();
+        while ((str = br.readLine()) != null) {
+            System.out.println(str);
+        }
+        br.close();
 
-		// 2nd approach : using Scanner & file
+        // 2nd approach : using Scanner & file
 
-		File file = new File("C:\\Users\\Keshav\\Desktop\\API.txt");
+        File file = new File("C:\\Users\\Keshav\\Desktop\\API.txt");
 
-		Scanner sc = new Scanner(file);
+        Scanner sc = new Scanner(file);
 
-		while (sc.hasNextLine())
+        while (sc.hasNextLine()) {
+            System.out.println(sc.nextLine());
+        }
 
-		{
-			System.out.println(sc.nextLine());
-		}
+        // Approach 3
 
-		// Approach 3
+        sc.useDelimiter("\\Z");
+        System.out.println(sc.next());
 
-		sc.useDelimiter("\\Z");
-		System.out.println(sc.next());
-
-	}
+    }
 
 }
