@@ -16,7 +16,7 @@ public class CountCharOccurance {
 
         int count = totalCount - totalCountAfterRemove;
 
-        System.out.println("no of occurances of a is " + count);
+        System.out.println("no of occurrences of a is " + count);
 
     }
 

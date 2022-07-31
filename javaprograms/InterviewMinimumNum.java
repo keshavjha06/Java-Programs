@@ -3,7 +3,7 @@ package javaprograms;
 public class InterviewMinimumNum {
     //print min numb from matrix
     public static void main(String[] args) {
-        int abc[][] = {{2, 4, 5}, {3, 0, 7}, {1, 2, 9}};
+        int[][] abc = {{2, 4, 5}, {3, 0, 7}, {1, 2, 9}};
         int min = abc[0][0];
         int mincolumn = 0;
 

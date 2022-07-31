@@ -2,7 +2,7 @@ package javaprograms;
 
 import java.util.Scanner;
 
-public class Leapyear {
+public class LeapYear {
 
     public static void main(String[] args) {
 

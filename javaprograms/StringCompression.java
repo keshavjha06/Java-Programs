@@ -3,7 +3,7 @@ package javaprograms;
 public class StringCompression {
     public static void main(String[] args) {
         String str = "AAAABBBCCDAA";
-        int count = 1;
+        /*int count = 1;
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
             if (i == str.length() - 1) {
@@ -18,11 +18,11 @@ public class StringCompression {
 
             }
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
-}
+}*/
 
-       /* for(int i=0;i<str.length();i++){
+        for(int i=0;i<str.length();i++){
             int count=1;
             while(i<str.length()-1 && str.charAt(i)==str.charAt(i+1)){
                 count++;
@@ -32,4 +32,4 @@ public class StringCompression {
             System.out.print(count);
         }
     }
-}*/
+}

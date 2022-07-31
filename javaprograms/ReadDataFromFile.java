@@ -11,7 +11,7 @@ public class ReadDataFromFile {
     public static void main(String[] args) throws IOException {
         // Approach 1 : Using FileReader & BufferReader
 
-        FileReader fr = new FileReader("C:\\Users\\Keshav\\Desktop\\API.txt");
+       /* FileReader fr = new FileReader("/Users/keshav.jha/Desktop/yaml.txt");
 
         BufferedReader br = new BufferedReader(fr);
 
@@ -20,11 +20,11 @@ public class ReadDataFromFile {
         while ((str = br.readLine()) != null) {
             System.out.println(str);
         }
-        br.close();
+        br.close();*/
 
         // 2nd approach : using Scanner & file
 
-        File file = new File("C:\\Users\\Keshav\\Desktop\\API.txt");
+        File file = new File("/Users/keshav.jha/Desktop/yaml.txt");
 
         Scanner sc = new Scanner(file);
 
@@ -34,8 +34,8 @@ public class ReadDataFromFile {
 
         // Approach 3
 
-        sc.useDelimiter("\\Z");
-        System.out.println(sc.next());
+      /*  sc.useDelimiter("\\Z");
+        System.out.println(sc.next());*/
 
     }
 

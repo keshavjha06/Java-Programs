@@ -8,7 +8,7 @@ public class WriteDataFromFile {
 
     public static void main(String[] args) throws IOException {
 
-        FileWriter fw = new FileWriter("C:\\Users\\Keshav\\Desktop\\Test.txt");
+        FileWriter fw = new FileWriter("/Users/keshav.jha/Downloads/Test.txt");
         BufferedWriter bw = new BufferedWriter(fw);
 
         bw.write("Selenium with Java");

@@ -6,18 +6,17 @@ public class EqualityOfArrays {
 
     public static void main(String[] args) {
 
-        int a[] = {1, 2, 3, 4, 5};
-        int b[] = {1, 2, 3, 4};
+        int[] a = {1, 2, 3, 4, 5};
+        int[] b = {1, 2, 3, 4};
 
         boolean flag = Arrays.equals(a, b);
-        if (flag == true) {
+        if (flag) {
             System.out.println("Arrays are equal");
         } else {
 
             System.out.println("Arrays are not equal");
 
         }
-
         // Approach2
 
         boolean status = true;
@@ -34,7 +33,7 @@ public class EqualityOfArrays {
         } else {
             status = false;
         }
-        if (status == true) {
+        if (status==true) {
             System.out.println("Arrays are equal");
         } else {
             System.out.println("Arrays are not equal");

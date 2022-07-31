@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PalindromeString {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string");
         String str = sc.next();
@@ -23,10 +22,10 @@ public class PalindromeString {
         }
 
         //StringBuffer is mutable class and String is immutable so we cannot use reverse function
-		StringBuffer sb = new StringBuffer(str);
-		System.out.println(sb.reverse());
-		
-		 StringBuilder str1 = new StringBuilder(str);  
-		 System.out.println(str1.reverse());
+        StringBuffer sb = new StringBuffer(str);
+        System.out.println(sb.reverse());
+
+        StringBuilder str1 = new StringBuilder(str);
+        System.out.println(str1.reverse());
     }
 }

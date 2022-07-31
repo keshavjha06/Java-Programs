@@ -1,15 +1,10 @@
 package javaprograms;
 
-import java.util.ArrayList;
-
 public class ArraySortDescending {
 
     public static void main(String[] args) {
 
-        int a[] = {7, 5, 4, 8, 3};
-
-        ArrayList<Integer> al = new ArrayList<Integer>();
-
+        int[] a = {7, 5, 4, 8, 3};
         for (int i = 0; i < a.length; i++) {
             for (int j = i + 1; j < a.length; j++) {
                 int temp;

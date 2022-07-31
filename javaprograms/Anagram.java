@@ -14,16 +14,16 @@ public class Anagram {
         x = x.replace(" ", "").toLowerCase();
         y = y.replace(" ", "").toLowerCase();
 
-        char a[] = x.toCharArray();
-        char b[] = y.toCharArray();
+        char[] a = x.toCharArray();
+        char[] b = y.toCharArray();
 
         Arrays.sort(a);
         Arrays.sort(b);
         boolean flag = Arrays.equals(a, b);
-        if (flag == true) {
-            System.out.println("String are anagram");
+        if (flag) {
+            System.out.println("Strings are anagram");
         } else {
-            System.out.println("String are not anagram");
+            System.out.println("Strings are not anagram");
         }
 
     }

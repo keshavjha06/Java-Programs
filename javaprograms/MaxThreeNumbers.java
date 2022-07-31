@@ -2,7 +2,7 @@ package javaprograms;
 
 import java.util.Scanner;
 
-public class Maxthreenumbers {
+public class MaxThreeNumbers {
 
     public static void main(String[] args) {
 
