@@ -22,9 +22,9 @@ public class CountStringOccurance {
             }
 
         }
-       // System.out.println(strCount);
-        for(Map.Entry stringCount : strCount.entrySet())
-            System.out.println(stringCount.getKey()+ " "+ stringCount.getValue());
+        // System.out.println(strCount);
+        for (Map.Entry stringCount : strCount.entrySet())
+            System.out.println(stringCount.getKey() + " " + stringCount.getValue());
     }
 
 }
