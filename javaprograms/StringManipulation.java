@@ -62,6 +62,13 @@ public class StringManipulation {
         System.out.println(a + b + x + y);
         System.out.println(x + y + (a + b));
 
+        String string1 = "1009";
+        String string2 = "1";
+
+        int num1 = Integer.parseInt(string1);
+        int num2 = Integer.parseInt(string2);
+        System.out.println(num1+num2);
+
 
     }
 
