@@ -1,7 +1,5 @@
 package javaprograms.Strings;
 
-import java.util.Scanner;
-
 public class Pangram {
 
     public static void main(String[] args) {
