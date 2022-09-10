@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Strings;
 import java.util.Stack;
 
 public class BalancedBrackets {

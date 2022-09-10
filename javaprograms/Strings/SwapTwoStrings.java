@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Strings;
 
 public class SwapTwoStrings {
     public static void main(String[] args) {
