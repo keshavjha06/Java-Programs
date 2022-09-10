@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Arrays;
 
 public class ArraySegregate {
     // function to segregate 0s and 1s

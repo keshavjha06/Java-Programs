@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Arrays;
 
 public class MissingElementArray {
 

@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Arrays;
 
 public class RotateArray {
     static void Rotate(int[] arr, int d, int n) {
