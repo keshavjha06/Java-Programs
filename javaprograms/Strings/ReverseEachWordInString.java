@@ -1,4 +1,4 @@
-package javaprograms;
+package javaprograms.Strings;
 
 public class ReverseEachWordInString {
 
