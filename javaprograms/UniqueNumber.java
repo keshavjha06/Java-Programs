@@ -2,7 +2,7 @@ package javaprograms;
 
 import java.util.ArrayList;
 
-public class Amazonquestion {
+public class UniqueNumber {
 
     public static void main(String[] args) {
 
