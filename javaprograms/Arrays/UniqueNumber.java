@@ -22,8 +22,8 @@ public class UniqueNumber {
                         k++;
                     }
                 }
-                System.out.println(a[i]);
-                System.out.println(k);
+               // System.out.println(a[i]);
+              //  System.out.println(k);
                 if (k == 1)
                     System.out.println(a[i] + " is a unique number");
             }
