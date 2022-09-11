@@ -3,7 +3,10 @@ package javaprograms.Strings;
 public class Pangram {
 
     public static void main(String[] args) {
-        System.out.println(pangram("abcdefghijklmnopqrstuvwxyz"));
+        if (pangram("abcdefghijklmnopqrstuvwxyz"))
+            System.out.println("String is pangram");
+        else
+            System.out.println("String is not pangram");
     }
 
     static boolean pangram(String str) {
