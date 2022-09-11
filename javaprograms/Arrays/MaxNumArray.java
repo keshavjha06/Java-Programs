@@ -1,7 +1,8 @@
-package javaprograms.BasicPrograms;
+package javaprograms.Arrays;
 
-public class InterviewMinimumNum {
-    //print min numb from matrix
+public class MaxNumArray {
+    //print max numb from min num column
+    //0 is the min num , so 4 is max number in that column
     public static void main(String[] args) {
         int[][] abc = {{2, 4, 5}, {3, 0, 7}, {1, 2, 9}};
         int min = abc[0][0];
@@ -26,5 +27,4 @@ public class InterviewMinimumNum {
         }
         System.out.println(max);
     }
-
 }
