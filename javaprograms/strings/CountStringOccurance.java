@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class CountStringOccurance {
     public static void main(String[] args) {
-        String str = "Keshav Jha works in mnc Keshav Jha lives in Bangalore";
+        String str = "Keshav Jha works in mnc and Keshav lives in Hyderabad";
         stringCount(str);
     }
 
@@ -23,7 +23,7 @@ public class CountStringOccurance {
 
         }
         // System.out.println(strCount);
-        for (Map.Entry stringCount : strCount.entrySet())
+        for (Map.Entry<String, Integer> stringCount : strCount.entrySet())
             System.out.println(stringCount.getKey() + " " + stringCount.getValue());
     }
 
